@@ -1,0 +1,99 @@
+body {
+	background-color: rgba(235,235,235, 1.0);	
+}
+
+h1 {
+	font-family: PT Sans, sans-serif;
+	color: rgba(31,114,156,1.0);
+	font-size: 1.7em;
+	text-align: center;
+	margin: 10px;
+}
+
+p {
+	font-family: Merriweather, sans-serif;
+	margin: 10px 10px 20px 10px;
+}
+
+#portfolioText {
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+}
+
+/* Footer Content */
+
+footer {
+	clear: both;
+	margin-top: 20px;
+	text-align: center;
+}
+
+/* Gallery Styles */
+ 
+.thumbnails img {
+		height: 80px;
+		padding: 1px;
+		margin: 0 10px 10px 0;
+	}
+
+.thumbnails img:hover {
+		cursor:pointer;
+	}
+
+.preview img {
+		padding: 1px;
+		width: 800px;
+	}
+
+/* End Gallery Styles */
+
+/* About Page Content */
+
+#AboutPhoto{
+	width: 40%;
+	float: left;
+}
+
+#AboutMe {
+	width: 60%;
+	float: right;
+}
+
+.content {
+	margin: auto;
+	width: 80%;
+	padding-top: 3em;
+}
+
+/* Contact Page Content */
+
+#formSubmit {
+	width: 60%;
+	margin: auto;
+	background-color: #fff;
+}
+
+form {
+	color: rgba(31,114,156,1.0);
+	font-family: Merriweather, sans-serif;
+	padding: 10px;
+}
+
+input {
+	font-family: Merriweather, sans-serif;
+	width: 40%;
+	margin-bottom: 20px;
+}
+
+button {
+	font-family: Merriweather, sans-serif;
+	background-color: rgba(31,114,156,1.0);
+	color: white;
+}
+
+textarea {
+	height: 100px;
+	font-family: Merriweather, sans-serif;
+	width: 100%;
+	margin-bottom: 20px;
+}
