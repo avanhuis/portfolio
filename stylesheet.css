@@ -28,6 +28,15 @@ footer {
 	text-align: center;
 }
 
+footer a {
+	text-decoration: none;
+	color: rgba(31,114,156,1.0);
+}
+
+footer img {
+	width: 15px;
+}
+
 /* Gallery Styles */
  
 .thumbnails img {
@@ -49,12 +58,12 @@ footer {
 
 /* About Page Content */
 
-#AboutPhoto{
+#aboutphoto{
 	width: 40%;
 	float: left;
 }
 
-#AboutMe {
+#aboutme {
 	width: 60%;
 	float: right;
 }
@@ -67,7 +76,7 @@ footer {
 
 /* Contact Page Content */
 
-#formSubmit {
+#formsubmit {
 	width: 60%;
 	margin: auto;
 	background-color: #fff;
@@ -81,7 +90,7 @@ form {
 
 input {
 	font-family: Merriweather, sans-serif;
-	width: 40%;
+	width: 35%;
 	margin-bottom: 20px;
 }
 
@@ -96,4 +105,48 @@ textarea {
 	font-family: Merriweather, sans-serif;
 	width: 100%;
 	margin-bottom: 20px;
+}
+
+/* Ipad size */
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+	#formsubmit {
+		width: 100%;
+	}
+	
+	input {
+		width: 80%;
+	}
+	
+	.preview img {
+		padding: 1px;
+		width: 100%;
+	}
+}
+
+/* Smart Phone */
+
+@media screen and (max-width: 480px) {
+	#aboutphoto{
+		float: none;
+		width: 100%;
+	}
+	
+	#aboutme {
+		float: none;
+		width: 100%;
+	}
+	
+	#formsubmit {
+		width: 100%;
+	}
+	
+	input {
+		width: 100%;
+	}
+	
+	.preview img {
+		padding: 1px;
+		width: 100%;
+	}
 }
