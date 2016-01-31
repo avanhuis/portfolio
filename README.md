@@ -10,3 +10,6 @@ http://www.adtile.me
 
 Gallery code by Dan Doicaru
 http://html-tuts.com/html-photo-gallery-simple-javascript/
+
+LinkedIn icon by Christophe Kerebel
+https://dribbble.com/shots/2247532-Freebies-Social-flat-icons-set
